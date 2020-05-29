@@ -24,6 +24,5 @@ class Player(Walker):
         return self.name
 
     def move(self, new_position):
-        print(self.position, new_position)
         self.position = new_position
         self.visited.append(new_position)
